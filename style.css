@@ -1,4 +1,12 @@
 /* menu style  */
+body{
+    margin: 100px;
+    background-color: gray;
+}
+main{
+    background-color: white;
+    padding: 50px;
+}
 .menu-area{
     display: flex;
     justify-content: space-between;
@@ -6,4 +14,79 @@
 .menu-items{
     display: flex;
     gap: 15px;
+    margin-right: 120px;
+}
+/* section one style ------------ */
+.containar1{
+    display: flex;
+    margin-top: 50px;
+}
+.left{
+    width: 582px;
+    height: 270px;
+
+}
+.right{
+    width: 440px;
+    height: 414px;
+    margin-left: 103px;
+}
+.btn1{
+    background-color: rgb(204, 9, 74);
+    margin-top: 16px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.fa-arrow-right-long{
+    margin-left: 10px;
+}
+hr{
+    color: gainsboro;
+}
+/* logo-area style sheet start from here ------ */
+.logo-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 165px;
+    margin-right: 165px;
+    border-top: solid gainsboro;
+    border-bottom: solid gainsboro;
+    padding: 30px;
+}
+/* collection area's style sheet start ------ */
+.title{
+    text-align: center;
+    margin-top: 104px;
+}
+.fa-star{
+    color: gold;
+}
+.fa-star-half-stroke{
+    color: gold;
+}
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 50px;
+   margin-left: 50px;
+   background-color: rgba(121, 118, 118, 0.071);
+    
+}
+.collection{
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+   
+}
+.collection img{
+    width: 300px;
+    height: 200px;
+}
+.collection p{
+    color: gray;
 }
