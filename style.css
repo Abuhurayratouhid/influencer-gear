@@ -1,0 +1,9 @@
+/* menu style  */
+.menu-area{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-items{
+    display: flex;
+    gap: 15px;
+}
