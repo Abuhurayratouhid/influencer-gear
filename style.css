@@ -73,7 +73,7 @@ hr{
     row-gap: 30px;
     column-gap: 30px;
     margin-top: 50px;
-   margin-left: 50px;
+   margin-left: 70px;
    background-color: rgba(121, 118, 118, 0.071);
     
 }
@@ -89,4 +89,27 @@ hr{
 }
 .collection p{
     color: gray;
+}
+.more{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(204, 9, 74);
+}
+/* last section style start from here -------- */
+.last{
+    display: flex;
+    margin-left: 50px;
+}
+.sidel{
+    width: 50%;
+}
+.sider{
+    width: 50%;
+}
+.btn2{
+    background-color: rgb(204, 9, 74);
+    margin-top: 16px;
+    color: white;
+    padding: 10px;
+    border: none;
 }
